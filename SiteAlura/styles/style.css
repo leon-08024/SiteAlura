@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+
+:root{
+    --cor-um:#F5F5DD;
+    --cor-dois:#9E3A35;
+    --cor-tres:#F00B00;
+    --cor-quatro:#d0d0bb;
+
+    --fonte:"Workbench", sans-serif;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    height: 100vh;
+    background-color: var(--cor-um);
+    box-sizing: border-box;
+    color: var(--cor-dois);
+
+    
+}
+strong {
+    color: var(--cor-tres);
+}
+.apresentacao{
+    padding: 8% 12%;
+    margin: 1%;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: var(--fonte);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.apresentacao_c{
+    width: 600;
+}
+.apresentacao_t{
+    align-items:center;
+    font-size: 65px;
+}
+.apresentacao_a{
+    align-items:stretch;
+    font-size: 45px;
+}
+.responsivo-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     font-family: var(--fonte);
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 1,
+        "SCAN" 0;
+    align-items: center;
+    text-decoration: none;
+}
+    .responsivo-container_contain:hover{
+        background-color: var(--cor-quatro);
+        ;
+        
+    }
+    .responsivo-container_contain{
+        border: 2px solid var(--cor-tres);
+        width: 378px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 12.5px 0;
+        text-decoration: none;
+        color: var(--cor-tres);
+        display: flex;
+        flex-direction: column;
+
+}
+.pezinho{
+    display: flex;
+justify-content:space-evenly;
+    font-family: var(--fonte);
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    flex-direction: row;
+    gap: 40px;
+    color: var(--cor-quatro);
+    background-color: var(--cor-dois);
+    padding: 15px;
+    bottom: 25px;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cabecinha{
+    text-decoration: none;
+    justify-content:space-evenly;
+    font-family: var(--fonte);
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    flex-direction: row;
+    gap: 40px;
+    color: var(--cor-quatro);
+    background-color: var(--cor-dois);
+    padding: 30px;
+    bottom: 30px;
+    
+}
+.cabecinha_menu{
+   padding-left: 80px;
+    display: flex;
+    gap: 80px;
+    
+}
+.imagens{
+    border: var(--cor-dois);
+    border-style: groove;
+    border-width: 10px;
+}
+
+
+
+
+a { color: inherit; } 
+
